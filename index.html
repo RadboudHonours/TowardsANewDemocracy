@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+
+.button {
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 350px;
+  height: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.centerblock {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+@media screen and (min-width: 600px) {
+    .centerblock {
+        width: 550px;
+    }
+}
+
+.h1 {
+  font-family: Verdana;
+}
+
+body {font-family: "Lato", sans-serif}
+
+
+</style>
+</head>
+<body>
+
+
+
+<div class="centerblock">
+<h1>Honourslab: Towards a New Democracy</h1>
+
+During the spring of 2022, a group of enthusiastic Honours students from Radboud University investigated the future of democracy and the role communalism could play in it. On this page, they share their creative results. 
+
+<br><br><br><br>
+
+<button class="button" style="vertical-align:middle"><span>A Communalist<br> Manifesto</span></button>
+<button class="button" style="vertical-align:middle"><span>??? (Poems)</span></button>
+<button class="button" style="vertical-align:middle"><span>Doe-het-zelf<br> democratie</span></button>
+</div>
+
+</body>
+</html>
+
+
+
