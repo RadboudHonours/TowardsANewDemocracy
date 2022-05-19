@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC">
+<style>
+body, html {height: 100%}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif}
+.menu {display: none}
+.bgimg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("flowers-3112055.jpg");
+  min-height: 90%;
+}
+
+
+</style>
+</head>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top w3-hide-small">
+  <div class="w3-bar w3-xlarge w3-black w3-opacity w3-hover-opacity-off" id="myNavbar">
+    <a href="#" class="w3-bar-item w3-button">HOME</a>
+    <a href="#menu" class="w3-bar-item w3-button">CONVERSATION</a>
+    <a href="#about" class="w3-bar-item w3-button">DEAR</a>
+    <a href="index.html" class="w3-bar-item w3-button">RETURN</a>
+  </div>
+</div>
+  
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-padding">
+    <span class="w3-tag w3-xlarge">Radboud Honourslab: Towards a New Democracy</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-text-white w3-hide-small" style="font-size:100px; font-color: black; background: #3e6727;">A conversation in the garden of freedom</span>
+    <span class="w3-text-white w3-hide-large w3-hide-medium" style="font-size:60px"><b>A conversation in the garden of freedom</b></span>
+    <p><a href="#menu" class="w3-button w3-xxlarge w3-black">Let me see the conversations</a></p>
+  </div>
+</header>
+
+<!-- Menu Container -->
+<div class="w3-container w3-black w3-padding-64 w3-xxlarge" id="menu">
+  <div class="w3-content">
+  
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">A conversation in the garden of freedom</h1>
+
+<center>
+<p>Sitting still in your evermoving routine<br/>
+On your little balcony, gazing at the world<br/>
+Or on your way to work on the busy street<br/>
+Focused on your own problems</p>
+
+<p>A traffic light is red, you stop<br/>
+It’s cold, you tuck your soft scarf on your coat<br/>
+Green, you go<br/>
+Walking in a crowd<br/>
+How lonely it is<br/>
+No connections, no strings<br/>
+Only your own thoughts</p>
+
+<p>You daydream, about a different place<br/>
+A place for everyone to come together<br/>
+To discuss everyday issues that affect you<br/>
+To hear and be heard,<br/>
+To decide together about the future of your city<br/>
+A place that includes all voices and opinions<br/>
+Lively and buzzing like a garden</p>
+
+<p>That place is not that far away<br/>
+Make connections, speak to each other<br/>
+Come closer, sit at the table<br/>
+Let’s see and let’s talk it out<br/>
+Only together do we have the power to make our futures better<br/>
+Only together we can build our arch<br/>
+Only together we are a polis.</p>
+</center>
+  </div>
+</div>
+
+<!-- About Container -->
+<div class="w3-container w3-padding-64 w3-red w3-grayscale w3-xlarge" id="about">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px">Dear</h1>
+<p><i>Dear,<br/>
+A thought,<br/>
+In the garden of freedom</i></p>
+
+<p>Collective powerlessness through experiences of meaninglessness; slipping away from social structures and connections, have been born</p>
+
+<p>Found itself in loneliness, cutting from its rooted context, not knowing founding the grounded radishes </p>
+
+<p>Loneliness accompanied by psychological and material dependencies of the felicitous few,<br/>
+it doesn’t trust, it doesn’t connect, an automatic subject has been born</p>
+
+<p>Collectivism, founding itself in individualism, vanished automatically through bureaucracy<br/>
+Society robbing social features of its individuality and creativity</p>
+
+<p><i>Hear,</i><br/>
+In the world where words have footprints, we often abandon opening chaotic conversations,<br/>
+Chaos generates creative processes, complexities of emotions and opinions, communities could be born</p>
+
+<p>Our chaotic errors are not deviant, its our essence of our living components<br/>
+Society is stable, unstable, sometimes finite, sometimes infinite, but always with the fascination of the living.</p>
+
+<p>An organic commune breath<br/>
+Embracing our errors, individuality, and creativity<br/>
+Countering powerlessness, meaninglessness, and loneliness,  <br/>
+Towards new structures, connections, and foundations<br/>
+Our grounded, rooted context,<br/>
+The chaos is our demos,<br/>
+Viva la Commune!</p>
+
+
+<p><i>Sincerely,<br/>
+A conversation,<br/>
+In the garden of freedom.</i></p>
+    
+  </div>
+</div>
+
+<!-- Image of location/map -->
+<img src="hartford-82626.jpg" class="w3-image w3-greyscale" style="width:100%;" id="myMap">
+
+<!-- Contact -->
+<div class="w3-container w3-padding-64 w3-blue-grey w3-grayscale-min w3-xlarge">
+  <div class="w3-content">
+    <h1 class="w3-center w3-jumbo" style="margin-bottom:64px"></h1>
+    
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-xxlarge">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<script>
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-red", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-red";
+}
+document.getElementById("myLink").click();
+</script>
+
+</body>
+</html>
+
